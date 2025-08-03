@@ -1,0 +1,62 @@
+
+  body{
+            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url(/image/WhatsApp\ Image\ 2025-07-10\ at\ 14.26.30_00b203f1.jpg);
+            font-display: rgb(3, 0, 0);
+            color: rgb(8, 2, 2);
+            font-size: larger;
+            align-content: center;
+        }
+        form{
+            max-width: 300px;
+            margin: auto;
+            padding: 1em;
+            border: 1px solid #ccc;
+            border-radius: 1em;
+            box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+        }
+
+        label{
+            display: block;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+        }
+        input{
+            width: 100%;
+            padding: 0.5em;
+            margin-top: 0.5em;
+            border: 1px solid #050000;
+            border-radius: 0.5em;
+        }
+        input :focus{
+            border-color: #000;
+            outline: none;
+        }
+        select{
+            width: 100%;
+            padding: 0.5em;
+            margin-top: 0.5em;
+            margin-bottom: 1em;
+            border:1px #999;
+            border-radius: 0.5em;
+        }
+
+        select :focus{
+            border-color: #110202;
+
+        }
+        button{
+            margin-top: 1em;
+            padding: 0.5em 1em;
+            border-radius: 0.5em;
+            background-color: #4caf50;
+            color: rgb(3, 0, 0);
+            cursor: pointer;
+        }
+        button :hover{
+            background-color: 45a049;
+        }
